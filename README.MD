@@ -71,9 +71,6 @@ The application is now running!
 * **Live Prediction Tab:** Upload an image and adjust the confidence slider to see your model predict in real-time.
 * **Model Validation Tab:** Click the "Run Validation" button to test your selected model against the test set defined in your **`yolo_params.yaml`** file.
 
-## 📋 Documentation & Proof of Execution
-
-- **[Proof of Execution PDF](./Space-Station-Safety-Detection-Proof-of-Execution.pdf)** - Comprehensive documentation with test results, model performance, and detection outputs
 
 ## 📋 Documentation & Proof of Execution
 
