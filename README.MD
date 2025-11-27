@@ -362,7 +362,7 @@ conda activate duality_ai
 **Problem Statement**: Duality AIʼs Space Station Challenge: Safety Object Detection  
 **Team Name**: AMIGOSEPIC  
 **Team Lead**: Jeevang1-epic [PUTTALA JEEVAN KUMAR]
-**Team members: Majeti harshit 
+**Team members: DevHarshit-01 [Majeti harshit] 
 
 ### Team Contributions
 
