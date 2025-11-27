@@ -446,7 +446,7 @@ For questions, issues, or suggestions:
 
 - **GitHub Issues**: [Project Repository](https://github.com/Jeevang1-epic/Jeevang1-epic-Duality-AI-s-Space-Station-Safety-Object-Detection-System)
 - **Documentation**: See included PDF files for detailed guides
-- **Competition**: SIH 2025 Official Portal
+- **Hackathon**: BuildwithIndia 2.0 – Duality AIʼs Space Station Challenge: Safety Object Detection
 
 ---
 
