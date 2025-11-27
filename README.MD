@@ -24,6 +24,11 @@
 
 ---
 
+## 🏆 Project Context & Impact
+
+**Hackathon**: BuildwithIndia 2.0  
+**Problem Statement**: Duality AIʼs Space Station Challenge: Safety Object Detection  
+**Solution**: AI-based real-time detection of critical safety equipment in a space station environment  
 
 ### Safety Objects Detected
 
@@ -353,8 +358,11 @@ conda activate duality_ai
 ## 🤝 Team & Contributors
 
 **Project**: Duality AI - Space Station Safety Detection  
-**Competition**: SIH 2025 (Smart India Hackathon)  
-**Team Lead**: Jeevang1-epic  
+**Hackathon**: BuildwithIndia 2.0  
+**Problem Statement**: Duality AIʼs Space Station Challenge: Safety Object Detection  
+**Team Name**: AMIGOSEPIC  
+**Team Lead**: Jeevang1-epic [PUTTALA JEEVAN KUMAR]
+**Team members: Majeti harshit 
 
 ### Team Contributions
 
@@ -386,14 +394,14 @@ conda activate duality_ai
 
 ## 📜 License & Usage
 
-This project is provided as-is for educational and research purposes within the SIH 2025 competition framework.
+This project is provided as-is for educational and research purposes as part of the BuildwithIndia 2.0 hackathon.
 
 **License**: MIT (or as specified by competition requirements)
 
 **Citation**: If using this project, please reference:
-```
 Duality AI - Space Station Safety Object Detection System
-Developed for SIH 2025, 2025
+BuildwithIndia 2.0 – Duality AIʼs Space Station Challenge: Safety Object Detection, 2025
+
 ```
 
 ---
@@ -446,20 +454,10 @@ For questions, issues, or suggestions:
 
 - **Ultralytics** for YOLOv8 framework
 - **Streamlit** for web application framework
-- **Smart India Hackathon 2025** for the challenge and opportunity
+- **BuildwithIndia 2.0 – Duality AIʼs Space Station Challenge: Safety Object Detection** for the challenge and opportunity
 - All team members for their contributions
 
 ---
-
-<div align="center">
-
-### 🚀 Ready to use!
-
-**Star this repository if you find it helpful!**
-
-[⬆ Back to Top](#-duality-ai---space-station-safety-object-detection-system)
-
-</div>
 
 ---
 
