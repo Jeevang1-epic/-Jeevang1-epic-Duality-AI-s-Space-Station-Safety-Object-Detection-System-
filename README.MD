@@ -24,11 +24,6 @@
 
 ---
 
-## 🏆 Project Context & Impact
-
-**Challenge**: SIH 2025 - Smart India Hackathon  
-**Problem Statement**: Automated safety monitoring systems for space station operations  
-**Solution**: AI-based real-time detection of critical safety equipment  
 
 ### Safety Objects Detected
 
