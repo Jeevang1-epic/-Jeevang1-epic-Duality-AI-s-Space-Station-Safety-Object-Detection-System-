@@ -6,9 +6,8 @@ import os
 import yaml
 from PIL import Image
 
-# --- Helper Functions ---
 
-@st.cache_data  # Cache the paths to avoid re-scanning
+@st.cache_data  
 def find_models():
     """Finds all 'best.pt' models in 'runs/detect/train*'."""
     base_path = Path.cwd()  # Assumes script is run from the project root
@@ -31,7 +30,7 @@ def find_models():
             
     return model_paths
 
-@st.cache_resource  # Cache the loaded model
+@st.cache_resource 
 def load_yolo_model(model_path):
     """Loads and caches a YOLO model."""
     try:
@@ -75,9 +74,7 @@ else:
     st.stop()
 
 
-# --- Main Page ---
 
-# Tab 1: Live Prediction
 tab1, tab2 = st.tabs(["📷 Live Prediction", "📊 Model Validation"])
 
 with tab1:
@@ -135,7 +132,7 @@ with tab1:
             st.dataframe(data_list, use_container_width=True)
 
 
-# Tab 2: Model Validation
+# Model Validation
 with tab2:
     st.header(f"Validate Model: `{selected_model_name}`")
     
