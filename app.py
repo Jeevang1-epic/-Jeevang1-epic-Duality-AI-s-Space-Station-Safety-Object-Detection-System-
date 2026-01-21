@@ -10,7 +10,7 @@ from PIL import Image
 @st.cache_data  
 def find_models():
     """Finds all 'best.pt' models in 'runs/detect/train*'."""
-    base_path = Path.cwd()  # Assumes script is run from the project root
+    base_path = Path.cwd()  
     detect_path = base_path / "runs" / "detect"
     model_paths = []
     
