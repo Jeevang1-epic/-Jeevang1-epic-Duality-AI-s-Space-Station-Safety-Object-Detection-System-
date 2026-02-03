@@ -1,4 +1,4 @@
-# 🚀 Duality AI - Space Station Safety Object Detection System
+# Duality AI - Space Station Safety Object Detection System
 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-orange?logo=data:image/svg%2Bxml;base64,)](https://github.com/ultralytics/ultralytics)
@@ -8,23 +8,23 @@
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 **Duality AI's Space Station Safety Object Detection System** is an advanced AI-powered computer vision application designed for real-time automated safety monitoring in space station environments. The system leverages YOLOv8 deep learning architecture to detect and identify critical safety equipment with high accuracy and real-time performance.
 
-### 🌟 Key Features
+### Key Features
 
-- **🔍 Real-Time Detection**: Instantly identify safety-critical objects in space station imagery
-- **🎛️ Interactive Web Interface**: Streamlit-powered drag-and-drop interface for seamless testing
-- **📊 Advanced Analytics**: Detailed detection metrics, confidence scores, and performance visualization
-- **⚡ High Performance**: 50-100ms per image inference time with 88% average accuracy
-- **🎓 Model Validation**: Built-in validation testing against custom datasets
-- **📈 Production Ready**: Optimized for deployment with recommended confidence thresholds
-- **🔧 Flexible Configuration**: Easy model and parameter switching via YAML config
+- ** Real-Time Detection**: Instantly identify safety-critical objects in space station imagery
+- ** Interactive Web Interface**: Streamlit-powered drag-and-drop interface for seamless testing
+- ** Advanced Analytics**: Detailed detection metrics, confidence scores, and performance visualization
+- ** High Performance**: 50-100ms per image inference time with 88% average accuracy
+- ** Model Validation**: Built-in validation testing against custom datasets
+- ** Production Ready**: Optimized for deployment with recommended confidence thresholds
+- ** Flexible Configuration**: Easy model and parameter switching via YAML config
 
 ---
 
-## 🏆 Project Context & Impact
+## Project Context & Impact
 
 **Hackathon**: BuildwithIndia 2.0  
 **Problem Statement**: Duality AIʼs Space Station Challenge: Safety Object Detection  
@@ -34,33 +34,33 @@
 
 | Object Class | Detection Rate | Avg Confidence | Use Case |
 |---|---|---|---|
-| 🛢️ **Oxygen Tank** | 96% | 0.82 | Life Support System Critical |
-| 🛢️ **Nitrogen Tank** | 94% | 0.86 | Pressurization System Critical |
-| 🆘 **First Aid Box** | 92% | 0.72 | Emergency Response |
-| 🔥 **Fire Extinguisher** | 100% | 0.88 | Fire Safety |
-| 📞 **Emergency Phone** | 70% | 0.25 | Communication |
-| 🚨 **Fire Alarm** | 75% | 0.38 | Fire Detection |
+|  **Oxygen Tank** | 96% | 0.82 | Life Support System Critical |
+|  **Nitrogen Tank** | 94% | 0.86 | Pressurization System Critical |
+|  **First Aid Box** | 92% | 0.72 | Emergency Response |
+|  **Fire Extinguisher** | 100% | 0.88 | Fire Safety |
+|  **Emergency Phone** | 70% | 0.25 | Communication |
+|  **Fire Alarm** | 75% | 0.38 | Fire Detection |
 
 ---
 
-## 📋 Documentation & Proof of Execution
+##  Documentation & Proof of Execution
 
-### 📄 Complete Documentation Suite
+###  Complete Documentation Suite
 
-- **[Proof of Execution PDF](./Space-Station-Safety-Detection-Proof-of-Execution.pdf)** ⭐
+- **[Proof of Execution PDF](./Space-Station-Safety-Detection-Proof-of-Execution.pdf)** 
   - Initial testing with real app screenshots
   - Detection outputs with bounding boxes
   - Model performance metrics and accuracy analysis
   - Live prediction examples
 
-- **[Extended Test Results PDF](./Extended-Test-Results-Live-Detection.pdf)** ⭐
+- **[Extended Test Results PDF](./Extended-Test-Results-Live-Detection.pdf)** 
   - Comprehensive testing across 8 diverse scenarios
   - Performance analysis with detailed metrics tables
   - Confidence threshold recommendations
   - Production deployment guidelines
   - Edge cases and special scenario handling
 
-### 🎯 Performance Highlights
+### Performance Highlights
 
 ```
 Overall System Accuracy: 88%
@@ -74,7 +74,7 @@ Total Detections Analyzed: 103+ individual objects
 
 ---
 
-## 💻 Technology Stack
+## Technology Stack
 
 | Component | Technology | Version |
 |---|---|---|
@@ -88,7 +88,7 @@ Total Detections Analyzed: 103+ individual objects
 
 ---
 
-## 🛠️ Setup & Installation Guide
+##  Setup & Installation Guide
 
 ### Prerequisites
 
@@ -96,26 +96,26 @@ Total Detections Analyzed: 103+ individual objects
 - **Git** (for repository cloning)
 - **System Requirements**: 4GB+ RAM, stable internet connection
 
-### Step 1️⃣: Create Conda Environment
+### Step 1️: Create Conda Environment
 
 ```bash
 conda create -n duality_ai python=3.10 -y
 conda activate duality_ai
 ```
 
-### Step 2️⃣: Install Dependencies
+### Step 2️: Install Dependencies
 
 ```bash
 pip install streamlit ultralytics opencv-python-headless PyYAML pillow torch torchvision
 ```
 
-### Step 3️⃣: Clone/Navigate to Repository
+### Step 3️: Clone/Navigate to Repository
 
 ```bash
 cd path/to/Jeevang1-epic-Duality-AI-s-Space-Station-Safety-Object-Detection-System
 ```
 
-### Step 4️⃣: Run the Application
+### Step 4️: Run the Application
 
 ```bash
 streamlit run app.py
@@ -125,16 +125,16 @@ The application will open at `http://localhost:8501` in your default browser.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 project_root/
-├── 🚀 app.py                          # Main Streamlit web application
-├── 📝 README.MD                       # Project documentation (this file)
-├── 📋 environment.yml                 # Conda environment specification
-├── ⚙️ yolo_params.yaml                # YOLO model configuration
+├──  app.py                          # Main Streamlit web application
+├──  README.MD                       # Project documentation (this file)
+├──  environment.yml                 # Conda environment specification
+├──  yolo_params.yaml                # YOLO model configuration
 │
-├── 📦 runs/                           # Training outputs
+├──  runs/                           # Training outputs
 │   └── detect/
 │       ├── train/                     # Model 1 training folder
 │       │   └── weights/
@@ -145,7 +145,7 @@ project_root/
 │       │       └── best.pt
 │       └── ...
 │
-├── 🖼️ your_dataset/                  # Dataset folder (as configured in yolo_params.yaml)
+├──  your_dataset/                  # Dataset folder (as configured in yolo_params.yaml)
 │   ├── train/
 │   │   ├── images/
 │   │   └── labels/
@@ -156,16 +156,16 @@ project_root/
 │       ├── images/
 │       └── labels/
 │
-├── 📄 Space-Station-Safety-Detection-Proof-of-Execution.pdf
-├── 📄 Extended-Test-Results-Live-Detection.pdf
+├──  Space-Station-Safety-Detection-Proof-of-Execution.pdf
+├──  Extended-Test-Results-Live-Detection.pdf
 │
-├── 📊 detect/                         # Detection results folder (auto-generated)
+├──  detect/                         # Detection results folder (auto-generated)
 │   └── [prediction results]
 │
-└── 🎓 [Other supporting files]
+└──  [Other supporting files]
 ```
 
-### 📄 Key File Descriptions
+###  Key File Descriptions
 
 | File | Purpose |
 |---|---|
@@ -176,21 +176,21 @@ project_root/
 
 ---
 
-## 🏃 How to Use the Application
+##  How to Use the Application
 
-### 1️⃣ Start the Application
+### 1️ Start the Application
 
 ```bash
 streamlit run app.py
 ```
 
-### 2️⃣ Model Selection
+### 2️ Model Selection
 
 - The **sidebar** automatically discovers all trained models in `runs/detect/*/weights/best.pt`
 - Select your desired model from the dropdown
 - Current model status displays in the sidebar
 
-### 3️⃣ Live Prediction (Main Feature)
+### 3️ Live Prediction (Main Feature)
 
 **Tab: "Live Prediction"**
 
@@ -207,7 +207,7 @@ streamlit run app.py
    - Confidence scores for each detection
    - Bounding box coordinates (x_center, y_center, width, height)
 
-### 4️⃣ Model Validation (Testing Tab)
+### 4️ Model Validation (Testing Tab)
 
 **Tab: "Model Validation"**
 
@@ -220,7 +220,7 @@ streamlit run app.py
    - mAP (mean Average Precision)
    - Performance graphs and curves
 
-### 5️⃣ Interpretation Guide
+### 5️ Interpretation Guide
 
 - **High Confidence (>0.80)**: Critical alerts - prioritize immediate response
 - **Medium Confidence (0.50-0.80)**: Standard alerts - normal monitoring
@@ -228,7 +228,7 @@ streamlit run app.py
 
 ---
 
-## 🎓 Model Architecture & Training
+##  Model Architecture & Training
 
 ### YOLOv8 Architecture
 
@@ -265,25 +265,25 @@ Augmentation: Advanced (rotation, scale, brightness, etc.)
 
 | Class | Success Rate | Avg Confidence | Max Confidence | Detections | Status |
 |---|---|---|---|---|---|
-| OxygenTank | 96% | 0.82 | 0.97 | 28 | ✅ Excellent |
-| NitrogenTank | 94% | 0.86 | 0.99 | 19 | ✅ Excellent |
-| FirstAidBox | 92% | 0.72 | 0.95 | 12 | ✅ Very Good |
-| FireExtinguisher | 100% | 0.88 | 0.93 | 2 | ✅ Excellent |
-| FireAlarm | 75% | 0.38 | 0.46 | 8 | ⚠️ Good |
-| EmergencyPhone | 70% | 0.25 | 0.54 | 14 | ⚠️ Fair |
+| OxygenTank | 96% | 0.82 | 0.97 | 28 |  Excellent |
+| NitrogenTank | 94% | 0.86 | 0.99 | 19 |  Excellent |
+| FirstAidBox | 92% | 0.72 | 0.95 | 12 |  Very Good |
+| FireExtinguisher | 100% | 0.88 | 0.93 | 2 |  Excellent |
+| FireAlarm | 75% | 0.38 | 0.46 | 8 |  Good |
+| EmergencyPhone | 70% | 0.25 | 0.54 | 14 |  Fair |
 
 ### Performance by Confidence Threshold
 
 | Threshold | Accuracy | Use Case | Recommended |
 |---|---|---|---|
-| 0.90+ | 97% | Critical alerts only | ✅ High Priority |
-| 0.70-0.89 | 94% | Standard monitoring | ✅ Production |
-| 0.50-0.69 | 88% | Comprehensive monitoring | ⚠️ Research |
-| <0.50 | 78% | Debugging/Analysis | 🔍 Debug |
+| 0.90+ | 97% | Critical alerts only |  High Priority |
+| 0.70-0.89 | 94% | Standard monitoring |  Production |
+| 0.50-0.69 | 88% | Comprehensive monitoring |  Research |
+| <0.50 | 78% | Debugging/Analysis |  Debug |
 
 ---
 
-## 🚀 Deployment & Production Recommendations
+##  Deployment & Production Recommendations
 
 ### Confidence Threshold Settings
 
@@ -316,7 +316,7 @@ Manual Review (0.20-0.49 confidence):
 
 ---
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 ### Issue: "Module not found" errors
 
@@ -355,7 +355,7 @@ conda activate duality_ai
 
 ---
 
-## 🤝 Team & Contributors
+##  Team & Contributors
 
 **Project**: Duality AI - Space Station Safety Detection  
 **Hackathon**: BuildwithIndia 2.0  
@@ -373,7 +373,7 @@ conda activate duality_ai
 
 ---
 
-## 📚 References & Resources
+##  References & Resources
 
 ### YOLOv8 Documentation
 
@@ -392,7 +392,7 @@ conda activate duality_ai
 
 ---
 
-## 📜 License & Usage
+##  License & Usage
 
 This project is provided as-is for educational and research purposes as part of the BuildwithIndia 2.0 hackathon.
 
@@ -406,7 +406,7 @@ BuildwithIndia 2.0 – Duality AIʼs Space Station Challenge: Safety Object Dete
 
 ---
 
-## 🎯 Future Improvements & Roadmap
+##  Future Improvements & Roadmap
 
 - [ ] Real-time video stream processing
 - [ ] Multi-camera support
@@ -421,7 +421,7 @@ BuildwithIndia 2.0 – Duality AIʼs Space Station Challenge: Safety Object Dete
 
 ---
 
-## ❓ FAQ
+##  FAQ
 
 **Q: Can I use this with my own dataset?**  
 A: Yes! Update `yolo_params.yaml` with your dataset path and retrain the model.
@@ -440,7 +440,7 @@ A: No, but recommended for real-time performance. CPU-only mode available.
 
 ---
 
-## 📞 Support & Contact
+##  Support & Contact
 
 For questions, issues, or suggestions:
 
@@ -450,7 +450,7 @@ For questions, issues, or suggestions:
 
 ---
 
-## 🌟 Acknowledgments
+##  Acknowledgments
 
 - **Ultralytics** for YOLOv8 framework
 - **Streamlit** for web application framework
@@ -462,5 +462,5 @@ For questions, issues, or suggestions:
 ---
 
 **Last Updated**: November 27, 2025  
-**Status**: ✅ Production Ready  
+**Status**: Production Ready  
 **Version**: 1.0
